@@ -1,16 +1,21 @@
-# stt
+# STT - Speech to Text for Flutter
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Getting Started
+STT is a Flutter package that provides Speech-to-Text (STT) functionality in multiple languages. It enables real-time speech recognition, making it easier to integrate voice commands, dictation, and other speech-related features into Flutter apps.
 
-This project is a starting point for a Flutter application.
+## Features
+- 🎤 Convert speech to text in multiple languages
+- 🌍 Supports various language options
+- ⚡ Real-time and offline speech recognition (device dependent)
+- 🛠️ Easy integration with Flutter apps
+- 🔊 Customizable speech recognition settings
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add the following dependency to your `pubspec.yaml` file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  stt: latest_version
